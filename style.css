@@ -133,6 +133,7 @@ body {
     -moz-transition: all 0.2s linear;
     -ms-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
+    cursor : pointer ;
 }
 .fonts i:hover {
     color: white;
