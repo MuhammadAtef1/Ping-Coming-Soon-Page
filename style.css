@@ -117,6 +117,27 @@ body {
     width: 30%;
     justify-content: space-between;
 }
+.fonts i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: hsl(223, 87%, 63%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+}
+.fonts i:hover {
+    color: white;
+    background-color:hsl(223, 87%, 63%) ;
+}
 .footer-p {
     color: var(--Gray);
     font-size: 10px;
