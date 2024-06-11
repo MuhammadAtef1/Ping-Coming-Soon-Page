@@ -14,4 +14,7 @@ submit.addEventListener("click" , function () {
             textError.style.display = "none" ;
         })
     }
+    else {
+        emailInput.value = "" ;
+    }
 })
